@@ -26,6 +26,7 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v6
         with:
+          context: ./project01
           push: true
           tags: iaharouna/python-app:${{ env.COMMIT_ID }}
     outputs:
