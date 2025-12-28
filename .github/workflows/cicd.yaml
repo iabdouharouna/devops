@@ -3,7 +3,7 @@ name: cicd
 on:
   push:
     paths:
-      - src/**
+      - project01/src/**
     branches:
       - main
 
